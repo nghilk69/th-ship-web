@@ -1,0 +1,19 @@
+{
+  "header": {
+    "company_name": "Công ty của bạn",
+    "navigation": {
+      "aboutUs": "Giới thiệu",
+      "field-network": "Lĩnh vực & Mạng lưới",
+      "vision-strengths": "Tầm nhìn & Thế mạnh",
+      "resources": "Ảnh",
+      "letter": "Thư Ngỏ",
+      "company": "Công ty"
+    }
+  },
+  "about_us": {
+    "title": "Về chúng tôi",
+    "description": "Tại Trường Hưng, chúng tôi xem chất lượng là sứ mệnh, toàn thể cán bộ nhân viên của Trường Hưng luôn nỗ lực học hỏi, phát triển không ngừng nhằm mang đến cho khách hàng những giải pháp vận tải đường thuỷ chuyên nghiệp, nhanh chóng, hiệu quả."
+  },
+  "our_products": "Sản phẩm của chúng tôi",
+  "our_services": "Dịch vụ của chúng tôi"
+}

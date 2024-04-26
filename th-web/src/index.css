@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-bg {
+  background-image: url('./images/gr-oil1.jpg') !important; /* Thay đường dẫn này bằng đường dẫn tới hình ảnh của bạn */
+}
+
+.container {
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  height: calc(100vh / 2);
+}
+
+/* Animation cho header */
+.header {
+  transition: background-position 0.5s, height 0.5s;
+}
+
+/* Animation cho footer */
+.footer {
+  transition: background-color 0.5s, height 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Transition và vị trí ban đầu của phần Description */
+.description {
+  animation: slideIn 1.5s ease-in-out forwards;
+}
+
+/* CSS Animation cho phần slice card */
+@keyframes slideInCard {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.card {
+  animation: slideInCard 1.5s ease-in-out forwards;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.rounded-img-letter {
+  border-top-left-radius: 3.5rem;
+  border-bottom-right-radius: 3.5rem;
+}
+
+.rounded-img-field {
+  border-top-left-radius: 4.5rem;
+}
+
+.rounded-top-right-bot-left {
+  border-top-right-radius: 3.5rem;
+  border-bottom-left-radius: 3.5rem;
+}
+
+
+
+

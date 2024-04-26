@@ -1,0 +1,20 @@
+{
+  "header": {
+    "company_name": "Your Company",
+    "navigation": {
+      "aboutUs": "About Us",
+      "field-network": "Field & Network",
+      "vision-strengths": "Vision & Strengths",
+      "resources": "Resources",
+      "letter": "Introduction Letter",
+      "company": "Company"
+    }
+  },
+  "about_us": {
+    "title": "About Us",
+    "description": "At Truong Hung, we consider quality as our mission. All staff members at Truong Hung are constantly striving to learn and develop in order to provide customers with professional, fast, and effective waterway transportation solutions."
+  },
+  "our_products": "Our products",
+  "our_services": "Our Services"
+
+}

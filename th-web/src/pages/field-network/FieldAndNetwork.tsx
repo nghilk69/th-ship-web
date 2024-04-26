@@ -51,11 +51,11 @@ const FieldAndNetwork = () => {
                 </div>
                 <div className="mt-8">
                     <div className="bg-blue-500 text-white pb-8">
-                        <div className="m-8 p-8">
+                        <div className="m-8 p-4">
                             <p className="text-lg font-bold mb-4">
                                 DỊCH VỤ VẬN TẢI BẰNG ĐƯỜNG THỦY NỘI ĐỊA TRƯỜNG HƯNG CHUYÊN CHỞ CÁC MẶT HÀNG:
                             </p>
-                            <p className="p-12 text-xl border border-gray-300 rounded-lg">
+                            <p className="p-6 text-xl border border-gray-300 rounded-lg">
                                 Cùng với đội ngũ thuyền trưởng, thuyền viên đào tạo chuyên nghiệp, nhiệt tình, năng động và có trách nhiệm và là một trong những đối tác tin cậy, lâu dài của mọi người. Quý khách hàng sẽ cảm thấy thật sự an tâm khi sử dụng dịch vụ vận tải của chúng tôi. Sự hài lòng của khách hàng chính là sự thể hiện niềm tin và uy tín nhất của chúng tôi.
                             </p>
                         </div>

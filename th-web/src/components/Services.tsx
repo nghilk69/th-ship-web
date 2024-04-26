@@ -26,23 +26,18 @@ const Services = () => {
             <div className="container mx-auto px-4">
                 <h2 className="text-4xl font-bold mb-8 text-center">{t('our_services')}</h2>
                 <p className="text-lg text-gray-700 mb-8 text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum ex sit amet arcu sodales, at dignissim leo consequat. Duis id velit id est convallis fermentum. Cras nec turpis eget purus varius egestas non eu lorem.
+                    {t('services_des')}
                 </p>
                 <div className="flex flex-wrap justify-center -mx-4">
                     <ServiceCard
-                        title="Service 1"
+                        title={t('cargo_transportation')}
                         image={ImageShip}
-                        detail="Detail of Service 1"
+                        detail={t('detail_cargo')}
                     />
                     <ServiceCard
-                        title="Service 2"
+                        title={t('oil_transportation')}
                         image={ImageShip}
-                        detail="Detail of Service 2"
-                    />
-                    <ServiceCard
-                        title="Service 3"
-                        image={ImageShip}
-                        detail="Detail of Service 3"
+                        detail={t('oil_detail')}
                     />
                 </div>
             </div>

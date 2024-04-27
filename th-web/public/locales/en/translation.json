@@ -2,6 +2,7 @@
   "header": {
     "company_name": "Your Company",
     "navigation": {
+      "home": "Home",
       "aboutUs": "About Us",
       "field-network": "Field & Network",
       "vision-strengths": "Vision & Strengths",
@@ -12,7 +13,18 @@
   },
   "about_us": {
     "title": "About Us",
-    "description": "At Truong Hung, we consider quality as our mission. All staff members at Truong Hung are constantly striving to learn and develop in order to provide customers with professional, fast, and effective waterway transportation solutions."
+    "description": "At Truong Hung, we consider quality as our mission. All staff members at Truong Hung are constantly striving to learn and develop in order to provide customers with professional, fast, and effective waterway transportation solutions.",
+    "company": "Company",
+    "company_name": "Company Name:",
+    "hotline": "Hotline:",
+    "international": "International Name:",
+    "shortName": "Short Name:",
+    "taxCode": "Tax Code:",
+    "address": "Address:",
+    "authorizedCapital": "Authorized Capital:",
+    "representative": "Representative:",
+    "legalBase": "Legal Base",
+    "detail": "Established and licensed since 2014 by the Department of Planning and Investment of Nam Dinh province, TRUONG HUNG INTERNATIONAL TRANSPORTATION COMPANY LIMITED has achieved great success in its field of operation."
   },
   "our_products": "Our products",
   "our_services": "Our Services",
@@ -20,5 +32,60 @@
   "cargo_transportation": "Cargo Transportation",
   "detail_cargo": "We provide cargo transportation services on waterways throughout the country and internationally, with a team of professional, enthusiastic, dynamic, and responsible captains and crew.",
   "oil_transportation": "Oil Transportation",
-  "oil_detail": "We provide oil transportation services on waterways throughout the country and internationally, with a team of professional, enthusiastic, dynamic, and responsible captains and crew."
+  "oil_detail": "We provide oil transportation services on waterways throughout the country and internationally, with a team of professional, enthusiastic, dynamic, and responsible captains and crew.",
+  "footer" : {
+    "contactus": "Contact Us",
+    "payment": "Payment Methods",
+    "Links": "Useful Links"
+  },
+  "fieldAndNetwork": {
+    "field": "Field of Operation",
+    "field_description": "TRUONG HUNG INTERNATIONAL TRANSPORT COMPANY LIMITED, with many years of experience in inland waterway transportation, confidently provides customers with the best service experience at extremely affordable and cost-saving rates. Currently, Trường Hưng owns a fleet of specialized transport vessels certified VR-SB, equipped with modern facilities and capable of carrying cargo ranging from 3,000 to 15,000 tons, serving oversized and overweight cargo transport.",
+    "fieldLabel": "TRUONG HUNG INLAND WATERWAY TRANSPORTATION SERVICE SPECIALIZES IN TRANSPORTING THE FOLLOWING CARGO:",
+    "field_des2": "Alongside our team of professional, enthusiastic, dynamic, and responsible captains and crew, we are one of your reliable and long-term partners. Our customers will feel truly at ease when using our transportation services. Customer satisfaction is the ultimate manifestation of our trust and credibility.",
+    "field1": "Steel products:",
+    "field2": "Construction materials:",
+    "field3": "Coal products:",
+    "field4": "Import-export goods and oversized/overweight cargo:",
+    "field5": "Agricultural products:",
+    "field6": "Industrial products:",
+    "field1des": "Ingots, hot-rolled coils, cold-rolled coils, wire rods, etc.",
+    "field2des": "Construction steel, clinker, bulk cement, fly ash, stone, sand, etc.",
+    "field3des": "Charcoal, lump coal, coal briquettes, etc.",
+    "field5des": "Rice, grains, corn, wheat flour, fruits, and vegetables.",
+    "field6des": "Textiles, packaging, animal feed, machinery, and equipment.",
+    "network": "Network",
+    "network_description": "With nearly 9 years of experience, Truong Hung has obtained all necessary permits to operate on various waterway transportation routes nationwide. Currently, the company specializes in the following routes:",
+    "network1": "From Dung Quat, Quang Ngai to Saigon/Dong Nai/Long An area: Specializing in transporting products such as construction steel, stone, rebar, and wire rod coils for Hoa Phat Dung Quat Steel Joint Stock Company through intermediary transportation units.",
+    "network2": "From Hai Duong to Saigon/Dong Nai/Long An area: Specializing in transporting products such as construction iron, stone, rebar, and wire rod coils for Hoa Phat Hai Duong Steel Joint Stock Company through intermediary transportation units.",
+    "network3": "From Phu My, Ba Ria - Vung Tau to Dung Quat, Quang Ngai/Hai Duong/Nghe An: Specializing in transporting products such as construction iron, stone, rebar, and wire rod coils, etc.",
+    "network4": "From Son Duong Port, Ha Tinh to Ho Chi Minh City/Phu My Port/Thien Loc Thanh Port/Quy Nhon Port: Specializing in transporting steel products such as ingots, hot-rolled coils, cold-rolled coils, and wire rods for Hung Nghiep Formosa Ha Tinh Iron and Steel Limited Liability Company through intermediary transportation units.",
+    "network5": "From Dong Nai to Hon La, Quang Binh: Specializing in transporting various types of coal.",
+    "network6": "From Ha Nam to Nha Trang, Khanh Hoa: Specializing in transporting cement and clinker for Xuan Thanh Cement."
+  },
+  "visionAndStrengths": {
+    "title": "Vision and Strengths",
+    "vision": "Vision",
+    "vision_description": "To become one of the top 10 reputable companies in inland waterway transport in Vietnam.",
+    "mission": "Mission",
+    "mission_description": "We continuously innovate to provide high-quality inland waterway transport services to our customers, aiming to affirm our leading reputation.",
+    "strengths": "Strengths of Trường Hưng",
+    "strengths_description": "At Trường Hưng, we specialize in transporting steel products such as: billets, slab steel, hot-rolled coil steel, wire coil steel, bars, and other oversized and overweight items, etc. Our transport vehicles are newly built ships from 1 to 3 years old, classified as VR-SB ships with large tonnage and capacity. Choosing Trường Hưng, customers will receive many benefits and excellent quality of our services, including:",
+    "strength1": "Commitment to safe and efficient cargo transportation.",
+    "strength2": "Transportation of a large quantity of long-distance and break-bulk cargo, oversized and overweight equipment, and super-sized items.",
+    "strength3": "Professional and enthusiastic team of personnel.",
+    "strength4": "Highly cost-effective transportation.",
+    "strength5": "On-time delivery according to schedule.",
+    "strengths_description2": "To expand the company's inland waterway transport network to meet the increasing demand for transportation from customers, Trường Hưng has invested in the construction of a new watercraft: the Grand Family 68 vessel with a capacity of 4500.8 tons, which has been launched and is scheduled to be operational in November 2023. Additionally, Trường Hưng has partnered with shipbuilders to procure watercraft capable of transporting steel products and other oversized and overweight items for lease, with contracts extending over 5 years.",
+    "core_values": "Core Values",
+    "core_values_description": "Reliability is the foundation of enduring relationships and sustainable partnerships. We continuously strive to build and maintain trust to earn the confidence of our customers and partners. It is the most valuable asset that we always cherish and preserve."
+  },
+  "letter": {
+    "title": "LETTER OF INTRODUCTION",
+    "dear": "Dear Valued Customers and Partners,",
+    "content1": "First and foremost, Trường Hưng International Transport Company Limited would like to extend our best wishes to you for health, success, and happiness!",
+    "content2": "Established on December 25, 2014, Trường Hưng International Transport Company Limited has been operating and developing for nearly 9 years. We are striving to become one of the leading enterprises in the field of inland waterway transport, specializing in transporting goods across all regions nationwide. Currently, we specialize in transporting a variety of oversized, overweight goods, steel, coal, construction materials, agricultural products, etc. We are committed to delivering goods safely, quickly, and cost-effectively.",
+    "content3": "At Trường Hưng, we invest in a transportation system with VR-SB class vessels specialized in transporting steel products with large tonnage and capacity. Along with a team of staff, including officers, captains, and sailors who are trained in the field with full qualifications and experience, Trường Hưng has become a strategic partner of many large companies and corporations in Vietnam.",
+    "content4": "For Trường Hưng International Transport Company Limited, customer satisfaction is the measure of success and the result of the company's collective labor. Trường Hưng looks forward to receiving the attention and cooperation of our valued customers and partners."
+  }
 }

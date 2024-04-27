@@ -17,6 +17,7 @@ import AboutUs from "./pages/about-us/AboutUs";
 import Letter from "./pages/letter/Letter";
 import FieldAndNetwork from "./pages/field-network/FieldAndNetwork";
 import VisionMission from "./pages/vision-mission/VIsionMission";
+import Resources from "./pages/resources/Resources";
 
 function App() {
     const { t, i18n } = useTranslation();
@@ -39,7 +40,7 @@ function App() {
                   <Route path="/about-us" component={AboutUs} />
                   <Route path="/field-network" component={FieldAndNetwork} />
                   <Route path="/vision" component={VisionMission} />
-                  {/*<Route path="/resources" component={Resources} />*/}
+                  <Route path="/resources" component={Resources} />
                   <Route path="/letter" component={Letter} />
                   {/*<Route path="/company" component={Company} />*/}
                   <Footer/>

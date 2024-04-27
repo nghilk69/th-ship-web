@@ -4,13 +4,15 @@ import Letter1 from "../../images/letter1.jpg";
 import Letter2 from "../../images/letter2.jpg";
 import Letter3 from "../../images/letter3.jpg";
 import Letter4 from "../../images/letter4.png";
+import {useTranslation} from "react-i18next";
 
 const Letter: React.FC = () => {
+    const { t } = useTranslation();
     return (
         <div className="bg-gray-100 container mx-auto py-10">
             <div className="max-w-3xl mx-auto">
                 <div className="mb-5">
-                    <h2 className="text-2xl font-bold text-center mb-5">THƯ NGỎ</h2>
+                    <h2 className="text-2xl font-bold text-center mb-5">{t('letter.title')}</h2>
                     <div className="grid md:grid-cols-2 gap-6 px-4">
                         <div className="mb-5">
                             <div className="flex flex-wrap -mx-2">
@@ -21,18 +23,18 @@ const Letter: React.FC = () => {
                             </div>
                         </div>
                         <div>
-                            <h3 className="text-xl font-bold mb-2">Kính gửi Quý khách hàng và Đối tác!</h3>
+                            <h3 className="text-xl font-bold mb-2">{t('letter.dear')}</h3>
                             <p className="mb-3 text-gray-800 text-xl">
-                                Lời đầu tiên, Công Ty TNHH Vận Tải Quốc Tế Trường Hưng gửi đến Quý khách hàng lời chúc sức khỏe, thành công và hạnh phúc!
+                                {t('letter.content1')}
                             </p>
                             <p className="mb-3 text-gray-800 text-xl">
-                                Công Ty TNHH Vận Tải Quốc Tế Trường Hưng được thành lập vào ngày 25/12/2014. Trải qua gần 9 năm hoạt động và phát triển, Trường Hưng đang vươn mình trở thành một trong những doanh nghiệp hàng đầu về lĩnh vực vận tải đường thủy nội địa, chuyên vận chuyển hàng hóa trên tất cả các khu vực trong cả nước. Hiện tại chúng tôi chuyên vận chuyển đa dạng các loại hàng hóa siêu trường, siêu trọng, sắt thép, than các loại, vật liệu xây dựng, hàng nông sản, v.v… Cam kết vận chuyển hàng hóa đến nơi an toàn, nhanh chóng và tiết kiệm chi phí nhất.
+                                {t('letter.content2')}
                             </p>
                             <p className="mb-3 text-gray-800 text-xl">
-                                Tại Trường Hưng, Công ty chúng tôi đầu tư hệ thống phương tiện vận tải với cấp tàu VR-SB chuyên chở các sản phẩm về thép có trọng tải và công suất lớn, cùng với đội ngũ nhân viên là những cán bộ, thuyền trưởng, thuyền viên được đào tạo đúng chuyên ngành có đầy đủ văn bằng, chứng chỉ theo quy định, giàu kinh nghiệm, Trường Hưng đã và đang trở thành đối tác chiến lược của nhiều đơn vị, tập đoàn lớn tại Việt Nam.
+                                {t('letter.content3')}
                             </p>
                             <p className="mb-3 text-gray-800 text-xl">
-                                Đối với Công Ty TNHH Vận Tải Quốc Tế Trường Hưng sự hài lòng của Quý khách hàng chính là thước đo thành công và là thành quả lao động của tập thể công ty. Trường Hưng rất mong nhận được sự quan tâm và hợp tác của Quý khách hàng & Đối tác.
+                                {t('letter.content4')}
                             </p>
                         </div>
                     </div>

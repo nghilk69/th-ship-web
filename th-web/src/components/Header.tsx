@@ -28,7 +28,7 @@ const Header = ({ changeLanguage }) => {
                     <nav className="hidden md:flex items-center">
                         <ul className="flex text-white">
                             <li className="mr-4 font-bold text-xl">
-                                <Link to="/">Home</Link>
+                                <Link to="/">{t('header.navigation.home')}</Link>
                             </li>
                             <li className="mr-4 font-bold text-xl">
                                 <Link to="/about-us">{t('header.navigation.aboutUs')}</Link>
@@ -82,7 +82,7 @@ const Header = ({ changeLanguage }) => {
                         <ul className="text-white">
                             <li className="py-2">
                                 <Link to="/" onClick={toggleMenu}>
-                                    Home
+                                    {t('header.navigation.home')}
                                 </Link>
                             </li>
                             <li className="py-2 md:block">

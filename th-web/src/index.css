@@ -108,6 +108,26 @@ ul {
   border-bottom-left-radius: 3.5rem;
 }
 
+/* Thêm hiệu ứng scale khi rê chuột vào ảnh */
+.transition {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+}
+.transform {
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: scale(var(--transform-scale-x), var(--transform-scale-y));
+}
+.group:hover .transform {
+  --transform-scale-x: 1.05;
+  --transform-scale-y: 1.05;
+}
+
+/* Thêm hiệu ứng opacity cho overlay khi rê chuột vào ảnh */
+.group:hover .opacity-50 {
+  opacity: 0.5;
+}
+
+
 
 
 

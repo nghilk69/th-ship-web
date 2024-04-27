@@ -1,45 +1,46 @@
+import {Link} from "react-router-dom";
+import React from "react";
+import {useTranslation} from "react-i18next";
 
 
 const Footer: React.FC = () => {
+    const { t, i18n } = useTranslation();
     return (
         <footer className="footer bg-blue-900 text-white py-8">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+                        <h3 className="text-xl font-bold mb-4">{t('footer.contactus')}</h3>
                         <p>Xóm 2, Xã Xuân Trung, Huyện Xuân Trường, Tỉnh Nam Định</p>
                         <p>truonghungqtship@gmail.com</p>
                         <p>0912.5222.66</p>
                     </div>
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Payment Methods</h3>
+                        <h3 className="text-xl font-bold mb-4">{t('footer.payment')}</h3>
                         <p>PayPal</p>
                         <p>Visa</p>
                         <p>MasterCard</p>
                     </div>
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Useful Links</h3>
+                        <h3 className="text-xl font-bold">{t('footer.contactus')}</h3>
                         <ul>
                             <li>
-                                <a href="/">Home</a>
+                                <Link to="/">{t('header.navigation.home')}</Link>
                             </li>
                             <li>
-                                <a href="/transportation">Transportation</a>
+                                <Link to="/about-us">{t('header.navigation.aboutUs')}</Link>
                             </li>
                             <li>
-                                <a href="/warehousing">Warehousing & Distribution</a>
+                                <Link to="/field-network">{t('header.navigation.field-network')}</Link>
                             </li>
                             <li>
-                                <a href="/technology">Technology</a>
+                                <Link to="/vision">{t('header.navigation.vision-strengths')}</Link>
                             </li>
                             <li>
-                                <a href="/resources">Resources</a>
+                                <Link to="/resources">{t('header.navigation.resources')}</Link>
                             </li>
                             <li>
-                                <a href="/support">Support</a>
-                            </li>
-                            <li>
-                                <a href="/company">Company</a>
+                                <Link to="/letter">{t('header.navigation.letter')}</Link>
                             </li>
                         </ul>
                     </div>

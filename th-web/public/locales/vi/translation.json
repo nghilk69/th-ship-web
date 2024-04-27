@@ -2,6 +2,7 @@
   "header": {
     "company_name": "Công ty của bạn",
     "navigation": {
+      "home": "Trang chủ",
       "aboutUs": "Giới thiệu",
       "field-network": "Lĩnh vực & Mạng lưới",
       "vision-strengths": "Tầm nhìn & Thế mạnh",
@@ -12,7 +13,18 @@
   },
   "about_us": {
     "title": "Về chúng tôi",
-    "description": "Tại Trường Hưng, chúng tôi xem chất lượng là sứ mệnh, toàn thể cán bộ nhân viên của Trường Hưng luôn nỗ lực học hỏi, phát triển không ngừng nhằm mang đến cho khách hàng những giải pháp vận tải đường thuỷ chuyên nghiệp, nhanh chóng, hiệu quả."
+    "description": "Tại Trường Hưng, chúng tôi xem chất lượng là sứ mệnh, toàn thể cán bộ nhân viên của Trường Hưng luôn nỗ lực học hỏi, phát triển không ngừng nhằm mang đến cho khách hàng những giải pháp vận tải đường thuỷ chuyên nghiệp, nhanh chóng, hiệu quả.",
+    "company": "Thông tin công ty",
+    "company_name": "Tên công ty:",
+    "hotline": "Hotline:",
+    "international": "Tên quốc tế:",
+    "shortName": "Tên viết tắt:",
+    "taxCode": "Mã số thuế:",
+    "address": "Địa chỉ:",
+    "authorizedCapital": "Vốn điều lệ:",
+    "representative": "Người đại diện:",
+    "legalBase": "Cơ sở pháp lý",
+    "detail": "Được thành lập và cấp phép từ năm 2014 do Sở Kế hoạch và Đầu tư tỉnh Nam Định cấp phép. CÔNG TY TNHH VẬN TẢI QUỐC TẾ TRƯỜNG HƯNG đã đạt được rất nhiều thành công lớn trong lĩnh vực hoạt động của mình."
   },
   "our_products": "Sản phẩm của chúng tôi",
   "our_services": "Dịch vụ của chúng tôi",
@@ -20,6 +32,61 @@
   "cargo_transportation": "Vận chuyển hàng hóa",
   "detail_cargo": "Chúng tôi cung cấp dịch vụ vận tải hàng hoá trên các tuyến đường thuỷ trên cả nước, với đội ngũ thuyền trưởng, thuyền viên đào tạo chuyên nghiệp, nhiệt tình, năng động và có trách nhiệm.",
   "oil_transportation": "Vận chuyển dầu",
-  "oil_detail": "Chúng tôi cung cấp dịch vụ vận tải dầu trên các tuyến đường thuỷ trên cả nước và quốc tế, với đội ngũ thuyền trưởng, thuyền viên đào tạo chuyên nghiệp, nhiệt tình, năng động và có trách nhiệm."
+  "oil_detail": "Chúng tôi cung cấp dịch vụ vận tải dầu trên các tuyến đường thuỷ trên cả nước và quốc tế, với đội ngũ thuyền trưởng, thuyền viên đào tạo chuyên nghiệp, nhiệt tình, năng động và có trách nhiệm.",
+  "footer" : {
+    "contactus": "Liên hệ",
+    "payment": "Phương thức thanh toán",
+    "Links": "Liên kết"
+  },
+  "fieldAndNetwork": {
+    "field": "Lĩnh vực hoạt động",
+    "field_description": "Công Ty TNHH Vận Tải Quốc Tế Trường Hưng với nhiều năm hoạt động trong lĩnh vực vận tải đường thủy nội địa, Trường Hưng tự tin mang lại cho khách hàng những trải nghiệm tốt nhất về dịch vụ với mức cước phí siêu rẻ, siêu tiết kiệm dành cho khách hàng. Hiện tại, Trường Hưng đang sở hữu đội tàu vận tải chuyên dụng cấp VR-SB được trang bị các thiết bị hiện đại có trọng tải dao động từ 3.000 tấn đến 15.000 tấn phục vụ chở hàng siêu trường, siêu trọng.",
+    "fieldLabel": "DỊCH VỤ VẬN TẢI BẰNG ĐƯỜNG THỦY NỘI ĐỊA TRƯỜNG HƯNG CHUYÊN CHỞ CÁC MẶT HÀNG:",
+    "field_des2": "Cùng với đội ngũ thuyền trưởng, thuyền viên đào tạo chuyên nghiệp, nhiệt tình, năng động và có trách nhiệm và là một trong những đối tác tin cậy, lâu dài của mọi người. Quý khách hàng sẽ cảm thấy thật sự an tâm khi sử dụng dịch vụ vận tải của chúng tôi. Sự hài lòng của khách hàng chính là sự thể hiện niềm tin và uy tín nhất của chúng tôi.",
+    "field1": "Sản phẩm thép:",
+    "field2": "Sản phẩm vật liệu xây dựng:",
+    "field3": "Sản phẩm than:",
+    "field4": "Hàng xuất nhập khẩu và hàng siêu trường, siêu trọng.",
+    "field5": "Hàng nông sản:",
+    "field6": "Hàng sản xuất công nghiệp:",
+    "field1des": "Thép phôi, thép phôi tấm, thép cuộn cán nóng, thép cuộn cán dây, v.v…",
+    "field2des": "Thép xây dựng, Cliner, xi măng rời, tro bay, đá, cát, v.v…",
+    "field3des": "Than cám, than  cục, than đá, v.v…",
+    "field5des": "Gạo, lúa, bắp, bột mì, rau củ quả.",
+    "field6des": "Dệt vải, bao bì, thức ăn gia súc, máy móc thiết bị.",
+    "network": "Mạng lưới",
+    "network_description": "Với gần 9 năm hoạt động nghề, Trường Hưng có đầy đủ giấy phép hoạt động tại các tuyến đường vận tải đường thủy trên khắp cả nước. Hiện tại, công ty chuyên vận tải các tuyến như sau:",
+    "network1": "Từ Dung Quất, Quảng Ngãi đến khu vực Sài Gòn/Đồng Nai/Long An: Chuyên vận chuyển các sản phẩm như thép xây dựng, đá, thép thanh vằn, thép cuộn dây tròn cho Công ty Cổ phần thép Hòa Phát Dung Quất thông qua đơn vị vận tải trung gian.",
+    "network2": "Từ Hải Dương đến khu vực Sài Gòn/ Đồng Nai/Long An: Chuyên vận chuyển các sản phẩm như sắt xây dựng, đá, thép thanh vằn, thép cuôn dây tròn cho Công ty Cổ phần thép Hòa Phát Hải Dương thông qua đơn vị vận tải trung gian.",
+    "network3": "Từ Phú Mỹ, Bà Rịa - Vũng Tàu đến Dung Quất, Quảng Ngãi/Hải Dương/Nghệ An: Chuyên vận chuyển các sản phẩm như sắt xây dựng, đá, thép thanh vằn, thép cuôn dây tròn…",
+    "network4": "Từ Cảng Sơn Dương,Hà Tĩnh đến Cảng Hồ Chí Minh/Cảng Phú Mỹ/Cảng Thiên Lộc Thành/Cảng Quy Nhơn: Chuyên vận chuyển các sản phẩm thép như thép phôi, thép phôi tấm, thép cuộn cán nóng, thép cuộn cán dây cho Công ty TNHH Gang thép Hưng Nghiệp Formosa Hà Tĩnh thông qua đơn vị vận tải trung gian.",
+    "network5": "Từ Đồng Nai  đến Hòn La, Quảng Bình: Chuyên vận chuyển than các loại.",
+    "network6": "Từ Hà Nam đến Nha Trang, Khánh Hòa: Chuyên vận chuyển  hàng xi măng, Cliner cho Xi Măng Xuân Thành."
+  },
+    "visionAndStrengths": {
+      "title": "Tầm nhìn và Thế mạnh",
+      "vision": "Tầm nhìn",
+      "vision_description": "Trở thành top 10 đơn vị uy tín hàng đầu tại Việt Nam trong lĩnh vực vận tải đường thủy nội địa.",
+      "mission": "Sứ Mệnh",
+      "mission_description": "Chúng tôi liên tục đổi mới để cung cấp đến khách hàng dịch vụ vận tải đường thủy nội địa chất lượng cao nhằm khẳng định uy tín hàng đầu.",
+      "strengths": "THẾ MẠNH CỦA TRƯỜNG HƯNG",
+      "strengths_description": "Tại Trường Hưng, chúng tôi chuyên nhận vận chuyển các sản phẩm về thép như: Thép phôi, thép phôi tấm, thép cuộn cán nóng, thép cuộn cán dây, thép thanh và các mặt hàng siêu trường, siêu trọng khác v.v… Phương tiện vận chuyển đều là tàu được đóng mới từ 1 đến 3 năm tuổi, cấp tàu VR-SB có trọng tải và công suất lớn. Đến với Trường Hưng khách hàng sẽ nhận được nhiều lợi ích và chất lượng hoàn hảo dịch vụ của chúng tôi gồm:",
+      "strength1": "Cam kết hàng hoá được vận chuyển an toàn, hiệu quả.",
+      "strength2": "Vận chuyển được nhiều hàng xa và hàng rời số lượng lớn, hàng thiết bị cồng kềnh và hàng siêu trường, siêu trọng.",
+      "strength3": "Đội ngũ nhân sự phục vụ chuyên nghiệp, nhiệt tình.",
+      "strength4": "Chi phí vận chuyển siêu tiết kiệm.",
+      "strength5": "Thời gian giao hàng đúng theo lịch trình.",
+      "strengths_description2": "Để phát triển mạng lưới vận tải đường thủy của đơn vị ngày càng đa dạng và phục vụ tối đa năng suất nhu cầu vận chuyển của khách hàng, Trường Hưng đã đầu tư đóng mới 01 phương tiện thủy: Tàu Grand Family 68 trọng tải 4500,8 tấn hiện tại đã hạ thủy và dự kiến có thể đưa vào khai thác vào tháng 11/2023. Ngoài ra, Trường Hưng cũng liên kết với các đối tác đang đóng mới phương tiện thủy đủ điều kiện vận chuyển các sản phẩm thép cũng như các mặt hàng siêu trường siêu trọng khác để thuê về khai thác trong thời gian từ 5 năm trở lên.",
+      "core_values": "Giá trị cốt lõi",
+      "core_values_description": "Sự tin cậy là nền tảng của những mối quan hệ, hợp tác bền vững. Chúng tôi không ngừng nỗ lực xây dựng và giữ gìn uy tín để có được sự tin cậy từ các khách hàng, đối tác. Đó là tài sản quý giá nhất mà chúng tôi luôn trân trọng và gìn giữ."
+    },
+  "letter": {
+    "title": "Thư Ngỏ",
+    "dear": "Kính gửi Quý khách hàng và Đối tác!",
+    "content1": "Lời đầu tiên, Công Ty TNHH Vận Tải Quốc Tế Trường Hưng gửi đến Quý khách hàng lời chúc sức khỏe, thành công và hạnh phúc!",
+    "content2": "Công Ty TNHH Vận Tải Quốc Tế Trường Hưng được thành lập vào ngày 25/12/2014. Trải qua gần 9 năm hoạt động và phát triển, Trường Hưng đang vươn mình trở thành một trong những doanh nghiệp hàng đầu về lĩnh vực vận tải đường thủy nội địa, chuyên vận chuyển hàng hóa trên tất cả các khu vực trong cả nước. Hiện tại chúng tôi chuyên vận chuyển đa dạng các loại hàng hóa siêu trường, siêu trọng, sắt thép, than các loại, vật liệu xây dựng, hàng nông sản, v.v… Cam kết vận chuyển hàng hóa đến nơi an toàn, nhanh chóng và tiết kiệm chi phí nhất.",
+    "content3": "Tại Trường Hưng, Công ty chúng tôi đầu tư hệ thống phương tiện vận tải với cấp tàu VR-SB chuyên chở các sản phẩm về thép có trọng tải và công suất lớn, cùng với đội ngũ nhân viên là những cán bộ, thuyền trưởng, thuyền viên được đào tạo đúng chuyên ngành có đầy đủ văn bằng, chứng chỉ theo quy định, giàu kinh nghiệm, Trường Hưng đã và đang trở thành đối tác chiến lược của nhiều đơn vị, tập đoàn lớn tại Việt Nam.",
+    "content4": "Đối với Công Ty TNHH Vận Tải Quốc Tế Trường Hưng sự hài lòng của Quý khách hàng chính là thước đo thành công và là thành quả lao động của tập thể công ty. Trường Hưng rất mong nhận được sự quan tâm và hợp tác của Quý khách hàng & Đối tác."
+  }
 
 }
